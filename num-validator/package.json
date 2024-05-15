@@ -1,0 +1,16 @@
+{
+  "name": "num-validator",
+  "version": "1.0.0",
+  "description": "epam_testing_task1",
+  "main": "index.js",
+  "scripts": {
+    "test": "c8 --reporter=html --reporter=text mocha --reporter mochawesome"
+  },
+  "author": "Diego Ojeda",
+  "license": "ISC",
+  "dependencies": {
+    "c8": "^9.1.0",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3"
+  }
+}
